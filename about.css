@@ -1,0 +1,32 @@
+  .about-section {
+    background: linear-gradient(135deg, #fefefe, #f0f9ff);
+    transition: all 0.3s ease;
+  }
+
+  .about-img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .about-img:hover {
+    transform: scale(1.03);
+  }
+
+  .about-text h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-text p {
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .about-text h2 {
+      font-size: 1.8rem;
+    }
+
+    .about-text p {
+      font-size: 1rem;
+    }
+  }

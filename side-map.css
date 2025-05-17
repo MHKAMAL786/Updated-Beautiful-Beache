@@ -1,0 +1,13 @@
+.sitemap-section {
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+  }
+
+  .sitemap-links a {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .sitemap-links a:hover {
+    background-color: #0d6efd !important;
+    color: white !important;
+    transform: scale(1.05);
+  }
